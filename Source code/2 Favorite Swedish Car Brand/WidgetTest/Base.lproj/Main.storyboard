@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6185.11" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6190.4"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Tb-D2-Psg" userLabel="Volvo Button">
+                                <rect key="frame" x="20" y="40" width="560" height="100"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="0.58999999999999997" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="SVo-7c-VLO"/>
+                                </constraints>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="carBrandButtonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="lQh-k5-Ng6"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="volvo_logo" translatesAutoresizingMaskIntoConstraints="NO" id="o26-qK-R6b">
+                                <rect key="frame" x="20" y="40" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="YcH-rf-kIq"/>
+                                    <constraint firstAttribute="height" constant="100" id="wAC-ii-SDh"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Volvo" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HhW-z6-qCT">
+                                <rect key="frame" x="128" y="75" width="56" height="29"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Founded 1927" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SYX-9X-1bt">
+                                <rect key="frame" x="128" y="112" width="96" height="18"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EaP-VO-O9l" userLabel="Saab Button">
+                                <rect key="frame" x="20" y="146" width="560" height="100"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="0.58999999999999997" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="ZPw-O2-MYB"/>
+                                </constraints>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="carBrandButtonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Lgk-Wi-IGA"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="saab_logo" translatesAutoresizingMaskIntoConstraints="NO" id="5Ut-lB-ufA">
+                                <rect key="frame" x="20" y="146" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="1lZ-Mm-37L"/>
+                                    <constraint firstAttribute="width" constant="100" id="X6t-eJ-F3n"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saab" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8gc-p9-uw2">
+                                <rect key="frame" x="128" y="181" width="54" height="29"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Founded 1945" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CIy-Td-gr4">
+                                <rect key="frame" x="128" y="218" width="96" height="18"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bM-ai-cgN" userLabel="Koenigsegg Button">
+                                <rect key="frame" x="20" y="252" width="560" height="100"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="0.58999999999999997" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="iDT-WT-nAX"/>
+                                </constraints>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="carBrandButtonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="zp2-dn-T2r"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="koenigsegg_logo" translatesAutoresizingMaskIntoConstraints="NO" id="3JC-dc-8y8">
+                                <rect key="frame" x="20" y="252" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="5md-YH-zzH"/>
+                                    <constraint firstAttribute="height" constant="100" id="QZ2-ia-zMR"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Koenigsegg" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PhR-RJ-o4r">
+                                <rect key="frame" x="128" y="287" width="123" height="29"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Founded 1994" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zl8-8u-KlF">
+                                <rect key="frame" x="128" y="324" width="96" height="18"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select your favorite Swedish car brand and see the value reflected in the widget" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="560" translatesAutoresizingMaskIntoConstraints="NO" id="L4J-O3-jXn">
+                                <rect key="frame" x="20" y="368" width="560" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="ugN-Rz-i1Q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="8Tb-D2-Psg" secondAttribute="trailing" constant="20" id="00Z-69-jIm"/>
+                            <constraint firstItem="CIy-Td-gr4" firstAttribute="leading" secondItem="5Ut-lB-ufA" secondAttribute="trailing" constant="8" id="2WW-xg-qNu"/>
+                            <constraint firstAttribute="centerX" secondItem="L4J-O3-jXn" secondAttribute="centerX" id="4gg-Ha-Qgb"/>
+                            <constraint firstItem="EaP-VO-O9l" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="5tx-sf-n7M"/>
+                            <constraint firstItem="8Tb-D2-Psg" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="685-hv-NGB"/>
+                            <constraint firstItem="2bM-ai-cgN" firstAttribute="centerY" secondItem="PhR-RJ-o4r" secondAttribute="centerY" id="9qP-jX-bNk"/>
+                            <constraint firstAttribute="trailing" secondItem="L4J-O3-jXn" secondAttribute="trailing" constant="20" id="B2k-QG-rbi"/>
+                            <constraint firstItem="EaP-VO-O9l" firstAttribute="centerY" secondItem="5Ut-lB-ufA" secondAttribute="centerY" id="Blp-FV-mge"/>
+                            <constraint firstItem="EaP-VO-O9l" firstAttribute="top" secondItem="8Tb-D2-Psg" secondAttribute="bottom" constant="6" id="DqU-jh-a40"/>
+                            <constraint firstItem="CIy-Td-gr4" firstAttribute="top" secondItem="8gc-p9-uw2" secondAttribute="bottom" constant="8" id="GIy-np-ptD"/>
+                            <constraint firstItem="PhR-RJ-o4r" firstAttribute="leading" secondItem="3JC-dc-8y8" secondAttribute="trailing" constant="8" id="Jdb-sd-1Fw"/>
+                            <constraint firstItem="HhW-z6-qCT" firstAttribute="leading" secondItem="o26-qK-R6b" secondAttribute="trailing" constant="8" id="Oko-hy-rRl"/>
+                            <constraint firstItem="EaP-VO-O9l" firstAttribute="centerY" secondItem="8gc-p9-uw2" secondAttribute="centerY" id="Rge-QZ-0cF"/>
+                            <constraint firstItem="2bM-ai-cgN" firstAttribute="leading" secondItem="3JC-dc-8y8" secondAttribute="leading" id="Tam-fy-X2h"/>
+                            <constraint firstAttribute="trailing" secondItem="2bM-ai-cgN" secondAttribute="trailing" constant="20" id="Ttr-yZ-vRh"/>
+                            <constraint firstItem="zl8-8u-KlF" firstAttribute="leading" secondItem="3JC-dc-8y8" secondAttribute="trailing" constant="8" id="Vyy-k0-EAa"/>
+                            <constraint firstItem="2bM-ai-cgN" firstAttribute="top" secondItem="EaP-VO-O9l" secondAttribute="bottom" constant="6" id="XF5-U0-aV0"/>
+                            <constraint firstItem="L4J-O3-jXn" firstAttribute="top" secondItem="2bM-ai-cgN" secondAttribute="bottom" constant="16" id="Zs9-vz-YTe"/>
+                            <constraint firstItem="L4J-O3-jXn" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="eFf-ag-a5e"/>
+                            <constraint firstItem="8gc-p9-uw2" firstAttribute="leading" secondItem="5Ut-lB-ufA" secondAttribute="trailing" constant="8" id="fDm-iZ-XfP"/>
+                            <constraint firstItem="EaP-VO-O9l" firstAttribute="leading" secondItem="5Ut-lB-ufA" secondAttribute="leading" id="fQu-dk-6Zv"/>
+                            <constraint firstItem="SYX-9X-1bt" firstAttribute="leading" secondItem="o26-qK-R6b" secondAttribute="trailing" constant="8" id="gNL-F9-1SO"/>
+                            <constraint firstItem="8Tb-D2-Psg" firstAttribute="centerY" secondItem="HhW-z6-qCT" secondAttribute="centerY" id="hLk-zl-QjW"/>
+                            <constraint firstItem="8Tb-D2-Psg" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="jE0-bQ-Kdn"/>
+                            <constraint firstItem="zl8-8u-KlF" firstAttribute="top" secondItem="PhR-RJ-o4r" secondAttribute="bottom" constant="8" id="jkj-UV-SkH"/>
+                            <constraint firstItem="2bM-ai-cgN" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="kGH-1S-I5W"/>
+                            <constraint firstItem="8Tb-D2-Psg" firstAttribute="centerY" secondItem="o26-qK-R6b" secondAttribute="centerY" id="o3G-li-67n"/>
+                            <constraint firstItem="2bM-ai-cgN" firstAttribute="centerY" secondItem="3JC-dc-8y8" secondAttribute="centerY" id="qWf-WY-0ah"/>
+                            <constraint firstAttribute="trailing" secondItem="EaP-VO-O9l" secondAttribute="trailing" constant="20" id="sqX-4W-w58"/>
+                            <constraint firstItem="8Tb-D2-Psg" firstAttribute="leading" secondItem="o26-qK-R6b" secondAttribute="leading" id="tnp-3D-bB6"/>
+                            <constraint firstItem="SYX-9X-1bt" firstAttribute="top" secondItem="HhW-z6-qCT" secondAttribute="bottom" constant="8" id="trI-G9-QE5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="koenigseggButton" destination="2bM-ai-cgN" id="YJF-ij-zYS"/>
+                        <outlet property="saabButton" destination="EaP-VO-O9l" id="nsG-VA-HU0"/>
+                        <outlet property="volvoButton" destination="8Tb-D2-Psg" id="zai-7d-A7T"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="koenigsegg_logo" width="200" height="200"/>
+        <image name="saab_logo" width="200" height="200"/>
+        <image name="volvo_logo" width="200" height="200"/>
+    </resources>
+</document>
