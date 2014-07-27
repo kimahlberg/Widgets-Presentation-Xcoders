@@ -1,5 +1,5 @@
 This project demonstrates the use of URL Schemes and an App Group's shared
-NSUserDefaults object launch the app and to pass information between a widget
+NSUserDefaults object to launch the app and pass information between a widget
 and its containing app.
 
 # Launching the containing app from the widget using URL Scheme
